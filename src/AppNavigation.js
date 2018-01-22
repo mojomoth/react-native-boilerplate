@@ -1,5 +1,3 @@
-import React from 'react';
-import { View, Text } from 'react-native';
 import { Navigation } from 'react-native-navigation';
 import FirstTabScreen from './pages/FirstTabScreen';
 import SecondTabScreen from './pages/SecondTabScreen';
@@ -31,4 +29,9 @@ Navigation.startTabBasedApp({
       title: 'Screen Two',
     },
   ],
+});
+
+this.props.navigator.push({
+  screen: 'example.PushedScreen',
+  title: 'Pushed Screen',
 });
