@@ -11,6 +11,7 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1",
     "jest-expo": "23.0.0",
+    "node-pre-gyp": "^0.6.39",
     "react-test-renderer": "16.0.0"
   },
   "scripts": {

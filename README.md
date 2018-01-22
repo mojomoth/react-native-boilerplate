@@ -36,7 +36,7 @@ $ yarn install # or npm install
 ```
 - android             # Android native source code & build
 - ios                 # IOS native source code & build (XCode)
-- src                 # Application source code (Atomic Design http://bradfrost.com/blog/post/atomic-web-design)
+- src                 # Application source code (Atomic Design)
 -- components         # Independent atomic components (atom, molecules)
 -- constants          # Constant values
 -- lib                # Library
