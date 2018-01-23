@@ -30,8 +30,3 @@ Navigation.startTabBasedApp({
     },
   ],
 });
-
-this.props.navigator.push({
-  screen: 'example.PushedScreen',
-  title: 'Pushed Screen',
-});
