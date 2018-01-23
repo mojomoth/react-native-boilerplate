@@ -3,7 +3,6 @@ import { View, Text, Button } from 'react-native';
 import { connect } from 'react-redux';
 import { fetchTest } from '../store/actions';
 
-
 class FirstTabScreen extends Component {
   render() {
     return (
@@ -15,7 +14,6 @@ class FirstTabScreen extends Component {
     );
   }
 }
-
 
 const mapStateToProps = state => ({
   test: state.test,
