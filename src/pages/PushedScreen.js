@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
+import { connect } from 'react-redux';
 
-export default class PushedScreen extends Component {
+class PushedScreen extends Component {
   render() {
     return (
       <View>
@@ -10,3 +11,11 @@ export default class PushedScreen extends Component {
     );
   }
 }
+
+const mapStateToProps = state => ({
+});
+
+const mapDispatchToProps = dispatch => ({
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(PushedScreen);

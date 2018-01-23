@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
+import { connect } from 'react-redux';
 
-export default class SecondTabScreen extends Component {
+class SecondTabScreen extends Component {
   render() {
     return (
       <View>
@@ -10,3 +11,11 @@ export default class SecondTabScreen extends Component {
     );
   }
 }
+
+const mapStateToProps = state => ({
+});
+
+const mapDispatchToProps = dispatch => ({
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(SecondTabScreen);

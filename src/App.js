@@ -1,17 +1,9 @@
-import React from 'react';
-import { View, Text } from 'react-native';
 import { Navigation } from 'react-native-navigation';
-import FirstTabScreen from './pages/FirstTabScreen';
-import SecondTabScreen from './pages/SecondTabScreen';
-import PushedScreen from './pages/PushedScreen';
+import { Provider } from 'react-redux';
+import registerScreens from './screens';
+import store from './store';
 
-const registerScreens = () => {
-  Navigation.registerComponent('example.FirstTabScreen', () => FirstTabScreen);
-  Navigation.registerComponent('example.SecondTabScreen', () => SecondTabScreen);
-  Navigation.registerComponent('example.PushedScreen', () => PushedScreen);
-};
-
-registerScreens();
+registerScreens(store, Provider);
 
 // start the app
 Navigation.startTabBasedApp({
