@@ -45,5 +45,8 @@ $ yarn install # or npm install
 -- utils              # Common utilities
 ```
 ## IOS TroubleShooting
+
+```
 $ cd node_modules/react-native/scripts && ./ios-install-third-party.sh && cd ../../../
 $ cd node_modules/react-native/third-party/glog-0.3.4/ && ../../scripts/ios-configure-glog.sh && cd ../../../../
+```
